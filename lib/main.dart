@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loginpage/UI/InputField.dart';
 
 void main() => runApp(const MyApp());
 
@@ -25,6 +26,18 @@ class HomeScreen extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         color: Colors.blue,
+        child: Center(
+          child: Container(
+            width: 400,
+            height: 400,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+               InputField(),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }
