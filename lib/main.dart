@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loginpage/UI/InputField.dart';
+import 'package:loginpage/UI/inputField.dart';
 
 void main() => runApp(const MyApp());
 
@@ -29,11 +29,34 @@ class HomeScreen extends StatelessWidget {
         child: Center(
           child: Container(
             width: 400,
-            height: 400,
+            height: 300,
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-               InputField(),
+                InputField(
+                    Icon(
+                      Icons.person,
+                      color: Colors.white,
+                    ),
+                    "Username"),
+                InputField(
+                    Icon(
+                      Icons.lock,
+                      color: Colors.white,
+                    ),
+                    "Password"),
+                Container(
+                  width: 150,
+                  child: RaisedButton(
+                    onPressed: (){},
+                    color: Colors.deepOrange,
+                    textColor: Colors.white,
+                    child: Text("Login",style: TextStyle(fontSize: 20.0),),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(10.0),),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
