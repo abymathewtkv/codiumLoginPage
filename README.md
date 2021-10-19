@@ -44,6 +44,9 @@
 
 #### 1. Run exit on folder(lib)
 
+## Screenshots
+
+![App Screenshot]('images/ScreenShot.png').
 
 ## Feedback
 
