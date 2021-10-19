@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:loginpage/main.dart';
+
 
 class InputField extends StatelessWidget{
 
@@ -34,18 +36,21 @@ class InputField extends StatelessWidget{
               height: 60,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: TextField(
-                  decoration: InputDecoration(
-                    border: InputBorder.none,
-                    hintText: hintText,
-                    fillColor: Colors.white,
-                    filled: true,
-                  ),
-                  style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.black,
-                  ),
+                child: Form(
+                 
+                  child: TextField(
+                    decoration: InputDecoration(
+                      border: InputBorder.none,
+                      hintText: hintText,
+                      fillColor: Colors.white,
+                      filled: true,
+                    ),
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.black,
+                    ),
 
+                  ),
                 ),
               ),
             ),
