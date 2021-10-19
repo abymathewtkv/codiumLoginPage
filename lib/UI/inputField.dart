@@ -15,7 +15,7 @@ class InputField extends StatelessWidget{
       child: Material(
         elevation: 5.0,
         borderRadius: BorderRadius.all(Radius.circular(10.0)),
-        color: Colors.deepOrange,
+        color: Colors.indigo,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -45,6 +45,7 @@ class InputField extends StatelessWidget{
                     fontSize: 20,
                     color: Colors.black,
                   ),
+
                 ),
               ),
             ),
