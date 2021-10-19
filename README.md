@@ -4,7 +4,7 @@
 ### Componets:
 
 #### 1 * Logo.
-#### 2 * Username and Password.
+#### 2 * TextField for Username and Password.
 #### 1 * Button for login.
 #### Total two pages available in this  application.
 #### when you click on the button application will navigate
