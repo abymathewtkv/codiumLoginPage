@@ -1,16 +1,50 @@
-# loginpage
+# Codium login page
 
-A new Flutter project.
+#### This Flutter application is a basic login page.
+### Componets:
 
-## Getting Started
+#### 1 * Logo.
+#### 2 * Username and Password.
+#### 1 * Button for login.
+#### Total two pages available in this  application.
+#### when you click on the button application will navigate
+#### to  the second page.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Documentation
+#### The Documentation is  available [here](https://flutter.dev/docs)
+
+
+
+# Installation instructions
+### System requirements:
+
+#### Flutter 2+(Developed  in flutter 2.5.3 stable)
+#### with windows 21H1 and tested on windows10 with Flutter 2.5.3
+#### There shouldn't be any problem  with other UNIX based operating System.
+
+
+## Installation
+
+#### 1. Clone the repository
+#### 2. cd to the folder(lib)
+#### 3. Get the packages(if needed)
+#### 4. Run the program
+
+
+## To start on terminal  for standard input
+
+#### 1. Go  to the folder(eg. cd lib)
+#### 2. Run : dart file_name(eg. flutter run <file_name>)
+
+## To stop on terminal
+
+#### 1. Run exit on folder(lib)
+
+
+## Feedback
+
+#### If you have any feedback, please reach out to me at abymathewtkv@gmail.com
