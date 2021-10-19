@@ -45,7 +45,7 @@
 #### 1. Run exit on folder(lib)
 
 
-## Screenshots
+## Screenshot
 
 ![App Screenshot](https://user-images.githubusercontent.com/89587285/137937050-2f7a645e-ead1-462a-9d73-7baa00ddc495.png)
 
