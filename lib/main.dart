@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        color: Colors.yellow,
+        color: Colors.blueAccent,
         child: Center(
           child: Container(
             width: 400,
