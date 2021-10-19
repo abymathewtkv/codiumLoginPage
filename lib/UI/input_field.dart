@@ -1,18 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:loginpage/main.dart';
 
-
-class InputField extends StatelessWidget{
-
+class InputField extends StatefulWidget {
   Icon fieldIcon;
   String hintText;
 
+  InputField(this.fieldIcon, this.hintText, {Key? key}) : super(key: key);
 
-
-  InputField(this.fieldIcon,this.hintText);
   @override
-  Widget build(BuildContext  context){
-    return  Container(
+  State<InputField> createState() => _InputFieldState();
+}
+
+class _InputFieldState extends State<InputField> {
+  final _text = TextEditingController();
+  final bool _validate = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
       width: 250,
       child: Material(
         elevation: 5.0,
@@ -23,10 +27,10 @@ class InputField extends StatelessWidget{
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: fieldIcon,
+              child: widget.fieldIcon,
             ),
             Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
                     topRight: Radius.circular(10.0),
@@ -37,19 +41,21 @@ class InputField extends StatelessWidget{
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Form(
-                 
                   child: TextField(
+                    //TestField
+                    controller: _text,
+
                     decoration: InputDecoration(
+                      errorText: _validate ? "Username" : null,
                       border: InputBorder.none,
-                      hintText: hintText,
+                      hintText: widget.hintText,
                       fillColor: Colors.white,
                       filled: true,
                     ),
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 20,
                       color: Colors.black,
                     ),
-
                   ),
                 ),
               ),
