@@ -33,6 +33,7 @@ class HomeScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
+
                 InputField(
                     Icon(
                       Icons.person,
